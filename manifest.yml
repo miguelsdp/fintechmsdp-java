@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: fintechmsdp-java
+  host: fintechmsdp-java
+  disk_quota: 1024M
+  services:
+  - IBM Watson Machine Learning-9e
+  - Document Conversion-bv
+  - Retrieve and Rank-TC
